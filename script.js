@@ -55,20 +55,20 @@ let jsonDatabase = [
     "tag" : ["multiplayer", "single player", "music"]
   },
   {
+    "title" : "Longwave",
+    "picture_url" : "wavelength.png",
+    "short" : "Longwave is an online version of Wavelength, a social guessing game based on how well you can think like your teammate",
+    "back_color" : "#A4D5A2",
+    "link" : "https://longwave.web.app/",
+    "tag" : ["4+ players", "play", "mobile avail"]
+  },
+  {
     "title" : "Codenames",
     "picture_url" : "codenames.jpg",
     "short" : "a clue giving and solving game based on word associations, rec. 2-10 players, but can house more",
     "back_color" : "#009EB6",
     "link" : "https://codenames.game/",
     "tag" : ["card game", "multiplayer", "popular"]
-  },
-  {
-    "title" : "Fishbowl",
-    "picture_url" : "fishbowl.jpg",
-    "short" : "also called Monikers, this is a fun guessing game with Taboo, Charades and Password",
-    "back_color" : "#FF8601",
-    "link" : "https://fishbowl-game.com/",
-    "tag" : ["4+ players", "card game", "mobile avail"]
   },
   {
     "title" : "Gather Town",
@@ -95,12 +95,12 @@ let jsonDatabase = [
     "tag" : ["multiplayer", "popular", "art"]
   },
   {
-    "title" : "Surviv.io",
-    "picture_url" : "surviv.jpg",
-    "short" : "join solo or fight with a squad in this 2d battle royale game, get kills and become the survivor",
-    "back_color" : "#5F8437",
-    "link" : "https://surviv.io/",
-    "tag" : ["1-4 players", "play", "mobile avail"]
+    "title" : "How Secure?",
+    "picture_url" : "password.jpg",
+    "short" : "assess your passwords, get tips or play around with how long it takes to crack different combinations",
+    "back_color" : "#DA7D3A",
+    "link" : "https://howsecureismypassword.net/",
+    "tag" : ["educational", "mobile avail"]
   },
   {
     "title" : "Playing Cards",
@@ -109,6 +109,30 @@ let jsonDatabase = [
     "back_color" : "#52BBAE",
     "link" : "https://playingcards.io/",
     "tag" : ["card game", "play", "multiplayer"]
+  },
+  {
+    "title" : "Surviv.io",
+    "picture_url" : "surviv.jpg",
+    "short" : "join solo or fight with a squad in this 2d battle royale game, get kills and become the survivor",
+    "back_color" : "#5F8437",
+    "link" : "https://surviv.io/",
+    "tag" : ["1-4 players", "play", "mobile avail"]
+  },
+  {
+    "title" : "Fishbowl",
+    "picture_url" : "fishbowl.jpg",
+    "short" : "also called Monikers, this is a fun guessing game with Taboo, Charades and Password",
+    "back_color" : "#FF8601",
+    "link" : "https://fishbowl-game.com/",
+    "tag" : ["4+ players", "card game", "mobile avail"]
+  },
+  {
+    "title" : "Monoskop",
+    "picture_url" : "netart.jpg",
+    "short" : "explore an extensive collection of net art",
+    "back_color" : "#D775D7",
+    "link" : "https://monoskop.org/Net_art",
+    "tag" : ["art", "interactive"]
   }
 ];
 
