@@ -3,7 +3,7 @@ let outputElement = document.getElementById('outputElement');
 let contentGridElement = document.getElementById('contentGrid');
 
 let myJSON = {
-  "title" : "Web Exploration",
+  "title" : "Web-based Activities",
   "picture_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Lil-Bub-2013.jpg/320px-Lil-Bub-2013.jpg",
   "short" : "ascii art rpg",
   "back_color" : "#FF0072",
@@ -39,12 +39,20 @@ let jsonDatabase = [
     "tag" : ["1-2 players", "play", "board game"]
   },
   {
-    "title" : "Gather Town",
-    "picture_url" : "gather.jfif",
-    "short" : "virtual spaces for video-calling, simulating buildings and rooms in a video game aesthetic",
-    "back_color" : "#c1a411",
-    "link" : "https://gather.town/",
-    "tag" : ["video calling", "interactive"]
+    "title" : "Reversi",
+    "picture_url" : "reversi.png",
+    "short" : "play this strategy game casually with private game rooms or competitively with live opponents, user profiles and stats, rankings and more",
+    "back_color" : "#405f7c",
+    "link" : "https://www.playok.com/en/reversi/#",
+    "tag" : ["board game", "1-2 players", "play", "mobile avail"]
+  },
+  {
+    "title" : "Shared Piano",
+    "picture_url" : "shared.png",
+    "short" : "play music together on the web, whether to perform, teach or have fun, multiple instruments are available",
+    "back_color" : "#ff0072",
+    "link" : "https://musiclab.chromeexperiments.com/Shared-Piano/",
+    "tag" : ["multiplayer", "single player", "music"]
   },
   {
     "title" : "Codenames",
@@ -63,28 +71,44 @@ let jsonDatabase = [
     "tag" : ["4+ players", "card game", "mobile avail"]
   },
   {
-    "title" : "Reversi",
-    "picture_url" : "reversi.png",
-    "short" : "play this strategy game casually with private game rooms or competitively with live opponents, user profiles and stats, rankings and more",
-    "back_color" : "#405f7c",
-    "link" : "https://www.playok.com/en/reversi/#",
-    "tag" : ["board game", "1-2 players", "play", "mobile avail"]
+    "title" : "Gather Town",
+    "picture_url" : "gather.jfif",
+    "short" : "virtual spaces for video-calling, simulating buildings and rooms in a video game aesthetic",
+    "back_color" : "#c1a411",
+    "link" : "https://gather.town/",
+    "tag" : ["video calling", "interactive"]
   },
   {
     "title" : "Type Racer",
     "picture_url" : "typeracer.jpg",
     "short" : "race against live opponents and test your speed in an online typing competition",
-    "back_color" : "#ff0072",
+    "back_color" : "#043083",
     "link" : "https://play.typeracer.com/",
     "tag" : ["multiplayer", "play", "popular"]
   },
   {
-    "title" : "Online Go",
-    "picture_url" : "go.png",
-    "short" : "set up private games, play puzzles, compete in tournaments, get rankings and more",
-    "back_color" : "#0000ff",
-    "link" : "https://online-go.com/",
-    "tag" : ["1-2 players", "play", "board game"]
+    "title" : "Skribbl.io",
+    "picture_url" : "skribbl.jpg",
+    "short" : "play this drawing and guessing game with friends or in public rooms, up to 12 players",
+    "back_color" : "#1E4B8F",
+    "link" : "https://skribbl.io/",
+    "tag" : ["multiplayer", "popular", "art"]
+  },
+  {
+    "title" : "Surviv.io",
+    "picture_url" : "surviv.jpg",
+    "short" : "join solo or fight with a squad in this 2d battle royale game, get kills and become the survivor",
+    "back_color" : "#5F8437",
+    "link" : "https://surviv.io/",
+    "tag" : ["1-4 players", "play", "mobile avail"]
+  },
+  {
+    "title" : "Playing Cards",
+    "picture_url" : "playing.png",
+    "short" : "play pretty much any card game with your friends in custom virtual game rooms",
+    "back_color" : "#52BBAE",
+    "link" : "https://playingcards.io/",
+    "tag" : ["card game", "play", "multiplayer"]
   }
 ];
 
