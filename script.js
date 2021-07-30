@@ -14,20 +14,20 @@ var randomIndex = Math.floor(Math.random() * myJSON["activites"].length);
 
 let jsonDatabase = [
   {
+    "title" : "Starblast",
+    "picture_url" : "starblast.jpg",
+    "short" : "multiplayer arcade space shooter, shoot asteroids and enemies, play different modes",
+    "back_color" : "#7c8ff2",
+    "link" : "https://starblast.io/#",
+    "tag" : ["team-based", "shooter", "survival"]
+  },
+  {
     "title" : "Gartic Phone",
     "picture_url" : "gartic.jpg",
     "short" : "online telestrations or telephone, best with voice chat and a great icebreaker",
     "back_color" : "#a529e3",
     "link" : "https://garticphone.com/",
     "tag" : ["multiplayer", "humor", "art"]
-  },
-  {
-    "title" : "Starblast",
-    "picture_url" : "starblast.jpg",
-    "short" : "multiplayer arcade space shooter, shoot asteroids and enemies, play in different modes",
-    "back_color" : "#7c8ff2",
-    "link" : "https://starblast.io/#",
-    "tag" : ["team-based", "shooter", "survival"]
   },
   {
     "title" : "Pokernow",
