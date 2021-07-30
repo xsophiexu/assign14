@@ -1,5 +1,4 @@
-let outputElement = document.getElementById('outputElement');
-// let outputParagraph = document.getElementById('outputParagraph');
+//let outputElement = document.getElementById('outputElement');
 let contentGridElement = document.getElementById('contentGrid');
 
 let myJSON = {
@@ -15,12 +14,44 @@ var randomIndex = Math.floor(Math.random() * myJSON["activites"].length);
 
 let jsonDatabase = [
   {
+    "title" : "Gartic Phone",
+    "picture_url" : "gartic.jpg",
+    "short" : "online telestrations or telephone, best with voice chat and a great icebreaker",
+    "back_color" : "#a529e3",
+    "link" : "https://garticphone.com/",
+    "tag" : ["multiplayer", "humor", "art"]
+  },
+  {
+    "title" : "Starblast",
+    "picture_url" : "starblast.jpg",
+    "short" : "multiplayer arcade space shooter, shoot asteroids and enemies, play in different modes",
+    "back_color" : "#7c8ff2",
+    "link" : "https://starblast.io/#",
+    "tag" : ["team-based", "shooter", "survival"]
+  },
+  {
+    "title" : "Pokernow",
+    "picture_url" : "pokernow.png",
+    "short" : "free online poker rooms with friends, includes spectator mode",
+    "back_color" : "#555755",
+    "link" : "https://www.pokernow.club/",
+    "tag" : ["card game", "play", "tournament"]
+  },
+  {
     "title" : "Candy Box",
     "picture_url" : "candy.jpg",
     "short" : "ascii art rpg, save slots available offline",
     "back_color" : "#9FD2D6",
     "link" : "https://candybox2.github.io/",
     "tag" : ["single player", "play", "art"]
+  },
+  {
+    "title" : "littlewargame",
+    "picture_url" : "littlewar.jpg",
+    "short" : "browser-based Realtime Strategy (RTS) game including multiplayer and map editor",
+    "back_color" : "#0e8f0b",
+    "link" : "http://www.littlewargame.com/play/#",
+    "tag" : ["multiplayer", "editor", "strategy"]
   },
   {
     "title" : "Tetris",
@@ -37,6 +68,22 @@ let jsonDatabase = [
     "back_color" : "#FF4E4E",
     "link" : "https://online-go.com/",
     "tag" : ["1-2 players", "play", "board game"]
+  },
+  {
+    "title" : "Skribbl.io",
+    "picture_url" : "skribbl.jpg",
+    "short" : "play this drawing and guessing game with friends or in public rooms, up to 12 players",
+    "back_color" : "#1E4B8F",
+    "link" : "https://skribbl.io/",
+    "tag" : ["multiplayer", "popular", "art"]
+  },
+  {
+    "title" : "Google Doodles",
+    "picture_url" : "google.png",
+    "short" : "a collection of games based off of the Google logo",
+    "back_color" : "#ab2918",
+    "link" : "https://www.google.com/doodles?q=interactive ",
+    "tag" : ["single player", "play"]
   },
   {
     "title" : "Reversi",
@@ -87,20 +134,12 @@ let jsonDatabase = [
     "tag" : ["multiplayer", "play", "popular"]
   },
   {
-    "title" : "Skribbl.io",
-    "picture_url" : "skribbl.jpg",
-    "short" : "play this drawing and guessing game with friends or in public rooms, up to 12 players",
-    "back_color" : "#1E4B8F",
-    "link" : "https://skribbl.io/",
-    "tag" : ["multiplayer", "popular", "art"]
-  },
-  {
-    "title" : "How Secure?",
-    "picture_url" : "password.jpg",
-    "short" : "assess your passwords, get tips or play around with how long it takes to crack different combinations",
-    "back_color" : "#DA7D3A",
-    "link" : "https://howsecureismypassword.net/",
-    "tag" : ["educational", "mobile avail"]
+    "title" : "Fishbowl",
+    "picture_url" : "fishbowl.jpg",
+    "short" : "also called Monikers, this is a fun guessing game with Taboo, Charades and Password",
+    "back_color" : "#FF8601",
+    "link" : "https://fishbowl-game.com/",
+    "tag" : ["4+ players", "card game", "mobile avail"]
   },
   {
     "title" : "Playing Cards",
@@ -111,20 +150,20 @@ let jsonDatabase = [
     "tag" : ["card game", "play", "multiplayer"]
   },
   {
+    "title" : "How Secure?",
+    "picture_url" : "password.jpg",
+    "short" : "assess your passwords, get tips or play around with how long it takes to crack different combinations",
+    "back_color" : "#DA7D3A",
+    "link" : "https://howsecureismypassword.net/",
+    "tag" : ["educational", "mobile avail"]
+  },
+  {
     "title" : "Surviv.io",
     "picture_url" : "surviv.jpg",
     "short" : "join solo or fight with a squad in this 2d battle royale game, get kills and become the survivor",
     "back_color" : "#5F8437",
     "link" : "https://surviv.io/",
     "tag" : ["1-4 players", "play", "mobile avail"]
-  },
-  {
-    "title" : "Fishbowl",
-    "picture_url" : "fishbowl.jpg",
-    "short" : "also called Monikers, this is a fun guessing game with Taboo, Charades and Password",
-    "back_color" : "#FF8601",
-    "link" : "https://fishbowl-game.com/",
-    "tag" : ["4+ players", "card game", "mobile avail"]
   },
   {
     "title" : "Monoskop",
@@ -134,6 +173,14 @@ let jsonDatabase = [
     "link" : "https://monoskop.org/Net_art",
     "tag" : ["art", "interactive"]
   }
+  // {
+  //   "title" : "",
+  //   "picture_url" : ".jpg",
+  //   "short" : "",
+  //   "back_color" : "",
+  //   "link" : "",
+  //   "tag" : ["download required"]
+  // }
 ];
 
 // createElementMessy(myJSON); #ff0072
